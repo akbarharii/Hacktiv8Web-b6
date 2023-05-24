@@ -1,0 +1,13 @@
+h1 {
+    font-size:1.6em; 
+    font-weight:normal;
+}
+
+.Container {
+    padding: 3rem;
+    border: 1rem;
+    border-style: double;
+    border-color: gray;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
