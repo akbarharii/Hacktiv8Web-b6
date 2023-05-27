@@ -1,1 +1,5 @@
 Belajar html
+
+Saya belajar tentang dasar menjadi programer web, seperti apa itu fungsi browser, apa itu html. Selain itu saya bekajar
+tentang code editor dari menginstal sampai menjalankan/ menggunakan text editor untuk membuat code HTML. Saya juga belajar
+tentang server local untuk menjalankan serverl di laptop sebagai cara untuk menjalankan website.

@@ -1,1 +1,4 @@
 Belajar Form dan CSS
+
+Saya belajar tentang cara HTML dapat diberikan style dengan code CSS. Selain itu saya juga belajar tentang github sebagai
+tempat meyimpan project yang dapat di sinkronasi dengan device pribadi sehingga lebih memudahkan programer untuk bekerja.
