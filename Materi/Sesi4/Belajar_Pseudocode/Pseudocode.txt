@@ -1,0 +1,21 @@
+bagaimana cara menjalankan kipas angin :
+---
+flow :
+1. yang pertama, siapkan kipas angin, dan hubungkan kabel nya ke listrik/terminal
+2. yang kedua, pilih tombol sesuai dengan kecepatan yang di inginkan
+3. yang ketiga, tekan tombol sesuai dengan kecepatan yang di inginkan
+4. kipas angin berhasil dihidupkan
+
+pseducode :
+if (kipas angin == "terhubng ke listrik") :
+    echo "1. sudah terhubung ke listrik"
+else if (kipas angin == "tidak terhubng ke listrik")
+    echo "2. Belum terhibung ke listrik"
+else if (tombol kipas angin == "1")
+    echo "3. Kipas angin berhasil dinyalakan dengan kecepatan 1"
+else (tombol kipas angin == "2")
+    echo "4. Kipas angin berhasil dinyalakan dengan kecepatan 2"
+else (tombol kipas angin == "3")
+    echo "5. Kipas angin berhasil dinyalakan dengan kecepatan 3"
+else (tombol kipas angin == "off")
+    echo "6. Kipas angin tidak menyala"

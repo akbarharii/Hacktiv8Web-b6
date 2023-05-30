@@ -1,0 +1,32 @@
+algoritma menghitung keliling lingkaran :
+1. Yang pertama, masukan nilai diameter lingkaran
+2. yang kedua, masukan nilai pi
+3. yang ketiga, Hitung keliling dengan rumus phi * diameter
+4. Keliling lingkaran berhasil dihitung
+
+pseducode :
+if (diameter linkaran > 0)
+    echo "1. nilai diameter sudah ditentukan"
+if else (diameter <= 0)
+    echo "2. nilai diameter tidak dapat dihitung"
+if else (nilai pi == 3.14)
+    echo "3. jalankan perkalian antara nilai diameter dengan pi"
+else
+    echo "4. perhitungan berhasil di jalankan"
+
+
+algoritma menghitung luas lingkaran :
+1. Yang pertama, masukan nilai jari jari lingkaran
+2. yang kedua, masukan nilai pi
+3. yang ketiga, Hitung luas dengan rumus phi * ( 2 * jari_jari)
+4. Keliling lingkaran berhasil dihitung
+
+pseducode :
+if (jari jari linkaran > 0)
+    echo "1. nilai jari jari sudah ditentukan"
+if else (jari jari <= 0)
+    echo "2. nilai jari jari tidak dapat dihitung"
+if else (nilai pi == 3.14)
+    echo "3. jalankan perkalian antara nilai jari jari dengan pi"
+else
+    echo "4. perhitungan berhasil di jalankan"
