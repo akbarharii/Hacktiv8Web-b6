@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5</title>
+</head>
+<body>
+    <p>Masukan Teks : </p>
+    <input type="text" id="teks" placeholder="Masukan teks..." required />
+
+    <br>
+    <br>
+
+    <p>Masukan Jumlah Perulangan : </p>
+    <input type="number" id="jumlah" placeholder="Masukan angka..." required />
+    <br>
+    <br>
+    <button onclick="cetak()">Cetak</button>
+    <br>
+    <br>
+
+    <div>
+        <ol id="hasil"></ol>
+    </div>
+
+    <script>
+        function cetak(){
+            const hs = document.getElementById("hasil")
+            var jumlah = document.getElementById("jumlah").value
+            var tulisan = document.getElementById("teks").value
+            var nilai = 0;
+            
+            while (jumlah > nilai) {
+                hs.innerHTML = hs.innerHTML+ "<li>" + tulisan + "</li>"; 
+                nilai++
+            }            
+        }
+    </script>
+</body>
+</html>

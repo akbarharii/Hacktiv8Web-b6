@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Java Script</title>
+  </head>
+  <body>
+    <p>Masukan Nilai Anda :</p>
+    <input type="number" id="nilai" placeholder="Masukan Nilai..." required />
+    <button onclick="calculate()">Cek Grade</button>
+    <div id="hasil"></div>
+
+    <hr />
+
+    <h3>Hitung Mundur Maju :</h3>
+    <button id="mundur" onclick="hitung('mundur')">Klik untuk mundur</button>
+    <button id="maju" onclick="hitung('maju')">Klik untuk maju</button>
+
+    <div id="hasil_hitung">0</div>
+    <div id="hasil_status"></div>
+
+    <script>
+      // calculate
+      function calculate() {
+        var nilai = parseInt(document.getElementById("nilai").value, 10);
+        let hasil = hitungGrade(nilai);
+        document.getElementById("hasil").innerHTML = hasil;
+      }
+
+      // Hitung grade
+      function hitungGrade(nilai) {
+        let grade = "";
+        if (nilai >= 90 && nilai <= 100) {
+          grade = "A";
+        } else if (nilai >= 80 && nilai <= 90) {
+          grade = "B";
+        } else if (nilai >= 80 && nilai <= 89) {
+          grade = "C";
+        } else if (nilai >= 60 && nilai <= 79) {
+          grade = "D";
+        } else if (nilai >= 1 && nilai <= 59) {
+          grade = "E";
+        } else {
+          grade = "Tidak Sesuai !";
+        }
+        return `Hasil Grade Anda : ${grade}`;
+      }
+
+      //   Hitung Maju Mundur
+      function hitung(tipe) {
+        var sStatus = "mundur",
+          nilai = 0;
+        var hasil = document.getElementById("hasil_hitung");
+        var status = document.getElementById("hasil_status");
+        if (tipe == "mundur") nilai = parseInt(hasil.innerHTML) - 1;
+        else {
+          nilai = parseInt(hasil.innerHTML) + 1;
+          sStatus = "maju";
+        }
+        hasil.innerHTML = nilai;
+        status.innerHTML = `Status : ${sStatus}`;
+      }
+    </script>
+  </body>
+</html>

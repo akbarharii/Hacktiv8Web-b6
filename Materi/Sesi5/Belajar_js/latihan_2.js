@@ -1,0 +1,1 @@
+alert("Saya memanggil Javascript melalui latihan_2.js");
