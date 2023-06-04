@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Akbar Hari Mukti</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>
+            Hacktiv8 Web Tugas 6
+        </h1>
+
+        <label> Warna Latar </label>
+        <input type="color" id="bg-color" />
+        <br>
+        <br>
+        <label> Warna Teks </label>
+        <input type="color" id="text-color" />
+
+        <script>
+            var bgColor = document.getElementById('bg-color');
+            var txtColor = document.getElementById('text-color');
+
+            bgColor.addEventListener("change", (event) => {
+                document.body.style.backgroundColor = bgColor.value;
+            });
+
+            txtColor.addEventListener("change", (event) => {
+                document.body.style.color = txtColor.value;
+            } );
+
+        </script>
+    </body>
+</html>
